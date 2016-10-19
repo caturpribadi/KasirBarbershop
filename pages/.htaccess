@@ -1,0 +1,4 @@
+
+RewriteEngine On
+RewriteRule ^([^/\.]+)/?$ index.php?cp=$1 [L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
